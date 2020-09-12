@@ -31,3 +31,16 @@
     path = sub-modules/sub-module
     url =  https://github.com/xknower/sub-module.git
 ```
+
+> 更新子模块
+
+> git submodule update
+
+> 克隆带子模块项目
+
+> 方式 一
+git clone https://github.com/xknower/main-module.git
+git submodule init && git submodule update
+
+> 方式 二
+git clone https://github.com/xknower/main-module.git --recursive
