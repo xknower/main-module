@@ -1,0 +1,3 @@
+[submodule "sub-modules/sub-module"]
+	path = sub-modules/sub-module
+	url = https://github.com/xknower/sub-module.git
